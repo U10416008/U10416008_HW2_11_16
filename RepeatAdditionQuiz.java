@@ -14,7 +14,6 @@ public class RepeatAdditionQuiz {
     System.out.print(
       "What is " + number1 + " * " + number2 + "? ");
     int answer = input.nextInt();
-    wrongAns.add(answer);
     while (number1 * number2 != answer) {
 	  
 	  if(wrongAns.contains(answer) == true){
